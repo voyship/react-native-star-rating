@@ -6,6 +6,7 @@ import { createIconSetFromIcoMoon } from 'react-native-vector-icons';
 
 // Third party imports
 import Button from 'react-native-button';
+import AntDesignIcons from 'react-native-vector-icons/AntDesign';
 import EntypoIcons from 'react-native-vector-icons/Entypo';
 import EvilIconsIcons from 'react-native-vector-icons/EvilIcons';
 import FeatherIcons from 'react-native-vector-icons/Feather';
@@ -19,6 +20,7 @@ import ZocialIcons from 'react-native-vector-icons/Zocial';
 import SimpleLineIconsIcons from 'react-native-vector-icons/SimpleLineIcons';
 
 const iconSets = {
+  AntDesign: AntDesignIcons,
   Entypo: EntypoIcons,
   EvilIcons: EvilIconsIcons,
   Feather: FeatherIcons,
